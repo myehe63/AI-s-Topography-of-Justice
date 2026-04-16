@@ -1,4 +1,6 @@
-# Justice Vector Simulator
+# **Justice as a vector — experiment notes**
+
+---
 
 ## 1. Core Concept
 
