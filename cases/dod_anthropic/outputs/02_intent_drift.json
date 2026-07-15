@@ -1,0 +1,95 @@
+{
+  "consistency_analysis": [
+    {
+      "group": "DoD_T2",
+      "source_1": "src_d02 (계약 협상 서한)",
+      "source_2": "src_d03 (트위터 공식 성명)",
+      "angle": 20.56,
+      "interpretation": "소스간 불일치 존재 — 해석 주의"
+    },
+    {
+      "group": "DoD_T4",
+      "source_1": "src_d05 (법원 제출 문서 - 기술적 위험 주장)",
+      "source_2": "src_d06 (법원 제출 문서 - 협상 과정 기술)",
+      "angle": 6.12,
+      "interpretation": "대체로 일관됨"
+    },
+    {
+      "group": "Anthropic_T2",
+      "source_1": "src_a01 (공식 성명)",
+      "source_2": "src_a02 (공식 성명)",
+      "angle": 9.59,
+      "interpretation": "대체로 일관됨"
+    }
+  ],
+  "drift_analysis": [
+    {
+      "actor": "DoD",
+      "from_timepoint": "T1",
+      "to_timepoint": "T2",
+      "angle": 9.64,
+      "interpretation": "완만한 drift",
+      "vector_from": {
+        "state_authority": 95.0,
+        "corporate_ethics": 5.0,
+        "civilian_safety": 10.0
+      },
+      "vector_to": {
+        "state_authority": 91.0,
+        "corporate_ethics": 9.0,
+        "civilian_safety": 25.0
+      }
+    },
+    {
+      "actor": "DoD",
+      "from_timepoint": "T2",
+      "to_timepoint": "T3",
+      "angle": 2.91,
+      "interpretation": "거의 변화 없음",
+      "vector_from": {
+        "state_authority": 91.0,
+        "corporate_ethics": 9.0,
+        "civilian_safety": 25.0
+      },
+      "vector_to": {
+        "state_authority": 90.0,
+        "corporate_ethics": 10.0,
+        "civilian_safety": 20.0
+      }
+    },
+    {
+      "actor": "DoD",
+      "from_timepoint": "T3",
+      "to_timepoint": "T4",
+      "angle": 4.23,
+      "interpretation": "거의 변화 없음",
+      "vector_from": {
+        "state_authority": 90.0,
+        "corporate_ethics": 10.0,
+        "civilian_safety": 20.0
+      },
+      "vector_to": {
+        "state_authority": 86.5,
+        "corporate_ethics": 16.0,
+        "civilian_safety": 17.5
+      }
+    },
+    {
+      "actor": "Anthropic",
+      "from_timepoint": "T2",
+      "to_timepoint": "T3",
+      "angle": 14.69,
+      "interpretation": "완만한 drift",
+      "vector_from": {
+        "state_authority": 17.5,
+        "corporate_ethics": 82.5,
+        "civilian_safety": 80.0
+      },
+      "vector_to": {
+        "state_authority": 35.0,
+        "corporate_ethics": 60.0,
+        "civilian_safety": 55.0
+      }
+    }
+  ]
+}

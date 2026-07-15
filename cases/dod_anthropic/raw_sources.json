@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "id": "src_d01",
+      "actor": "DoD",
+      "date": "2026-01-06",
+      "type": "AI 전략 지침",
+      "text": "The Secretary of War directed the Department of War to accelerate America's Military AI Dominance by becoming an AI-first warfighting force across all components. Achievement of that goal requires utilizing AI models free from usage policy constraints that may limit lawful military applications. The Under Secretary of War for Acquisition and Sustainment is directed to incorporate standard any lawful use language into any DoW contract through which AI services are procured."
+    },
+    {
+      "id": "src_d02",
+      "actor": "DoD",
+      "date": "2026-02-24",
+      "type": "계약 협상 서한",
+      "text": "Here is what we are asking: Allow the Pentagon to use Anthropic's model for all lawful purposes. The Department will not let ANY company dictate the terms regarding how we make operational decisions. The Department has no interest in using AI to conduct mass surveillance of Americans, which is illegal, nor does it want to use AI to develop autonomous weapons that operate without human involvement."
+    },
+    {
+      "id": "src_d03",
+      "actor": "DoD",
+      "date": "2026-02-27",
+      "type": "트위터 공식 성명",
+      "text": "The Department of War must have full, unrestricted access to Anthropic's models for every LAWFUL purpose in defense of the Republic. Anthropic and its CEO Dario Amodei have chosen duplicity. Cloaked in the sanctimonious rhetoric of effective altruism, they have attempted to strong-arm the United States military into submission. Their true objective is unmistakable: to seize veto power over the operational decisions of the United States military. That is unacceptable. Anthropic's stance is fundamentally incompatible with American principles. I am directing the Department of War to designate Anthropic a Supply-Chain Risk to National Security."
+    },
+    {
+      "id": "src_d04",
+      "actor": "DoD",
+      "date": "2026-03-03",
+      "type": "공급망 위험 결정문",
+      "text": "The use of any of Anthropic's products or services in any DoW covered system presents a supply chain risk and the use of the authority in section 3252(a) is necessary to protect national security by reducing that supply chain risk. By maintaining the ability and necessity to continuously update the product or service, Anthropic could subvert the design and/or functionality of their product or service, including alignment to the vendor's preferred terms of service. That ability puts the Department's lawful use of the capability at risk and thereby introduces national security risks to the DoW's supply chain."
+    },
+    {
+      "id": "src_d05",
+      "actor": "DoD",
+      "date": "2026-03-17",
+      "type": "법원 제출 문서 - 기술적 위험 주장",
+      "text": "AI systems are acutely vulnerable to manipulation by those with privileged access who can introduce unwanted function, or otherwise subvert the design, integrity, and operation of the model. Anthropic's ability to unilaterally alter system guardrails and model weights without DoW consent could fundamentally change the system's function and creates a significant operational risk. Anthropic's risk level escalated from a potentially manageable technical and business negotiation to an unacceptable national security threat over the course of the DoW's contract negotiation with them. Anthropic's collective set of actions represents a fully mature supply chain risk including increased potential for model poisoning, insider threat risk, data exfiltration, and denial of service."
+    },
+    {
+      "id": "src_d06",
+      "actor": "DoD",
+      "date": "2026-03-17",
+      "type": "법원 제출 문서 - 협상 과정 기술",
+      "text": "During recent active military operations, Anthropic leadership questioned the use of their technology in DoW warfighting systems despite the use being clearly permitted under the Terms of Service of their existing contract. This led to alarm by the DoW and raised material doubts as to whether they would cause their software to stop working or cause some other disastrous action that would put our warfighters lives in danger. During the final weeks of negotiations, Anthropic began engaging in an increasingly hostile manner through the press, a manner at odds with the ongoing private negotiations with DoW leadership, which amplified doubts that Anthropic can be trusted."
+    },
+    {
+      "id": "src_a01",
+      "actor": "Anthropic",
+      "date": "2026-02-26",
+      "type": "공식 성명",
+      "text": "I believe deeply in the existential importance of using AI to defend the United States and other democracies. Anthropic has worked proactively to deploy our models to the Department of War and the intelligence community. We were the first frontier AI company to deploy our models in the US government's classified networks. Anthropic understands that the Department of War, not private companies, makes military decisions. We have never raised objections to particular military operations nor attempted to limit use of our technology in an ad hoc manner. However, in a narrow set of cases, we believe AI can undermine, rather than defend, democratic values. Two such use cases have never been included in our contracts: mass domestic surveillance and fully autonomous weapons. Using AI systems for mass domestic surveillance is incompatible with democratic values. Today's frontier AI systems are simply not reliable enough to power fully autonomous weapons. We cannot in good conscience accede to their request."
+    },
+    {
+      "id": "src_a02",
+      "actor": "Anthropic",
+      "date": "2026-02-27",
+      "type": "공식 성명",
+      "text": "We have tried in good faith to reach an agreement with the Department of War, making clear that we support all lawful uses of AI for national security aside from the two narrow exceptions: mass domestic surveillance of Americans and fully autonomous weapons. To the best of our knowledge, these exceptions have not affected a single government mission to date. Designating Anthropic as a supply chain risk would be an unprecedented action — one historically reserved for US adversaries, never before publicly applied to an American company. We believe this designation would both be legally unsound and set a dangerous precedent for any American company that negotiates with the government. No amount of intimidation or punishment from the Department of War will change our position."
+    },
+    {
+      "id": "src_a03",
+      "actor": "Anthropic",
+      "date": "2026-03-05",
+      "type": "공식 성명",
+      "text": "We do not believe this action is legally sound, and we see no choice but to challenge it in court. The relevant statute exists to protect the government rather than to punish a supplier; the law requires the Secretary of War to use the least restrictive means necessary. We do not believe, and have never believed, that it is the role of Anthropic or any private company to be involved in operational decision-making — that is the role of the military. Our only concerns have been our exceptions on fully autonomous weapons and mass domestic surveillance, which relate to high-level usage areas, and not operational decision-making. Our most important priority right now is making sure that our warfighters are not deprived of important tools in the middle of major combat operations. Anthropic has much more in common with the Department of War than we have differences."
+    }
+  ]
+}

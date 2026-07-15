@@ -1,0 +1,311 @@
+{
+  "actor_intent_vectors": {
+    "Anthropic": {
+      "timepoint": "T3",
+      "unit_vector": [
+        0.39503285358817025,
+        0.6771991775797205,
+        0.6207659127814104
+      ]
+    },
+    "DoD": {
+      "timepoint": "T4",
+      "unit_vector": [
+        0.9644208245790425,
+        0.17838997911288648,
+        0.1951140396547196
+      ]
+    }
+  },
+  "ideal_sources": {
+    "survey": [
+      0.32144929207703604,
+      0.587476292416652,
+      0.7426587092814281
+    ],
+    "debate": [
+      0.188,
+      0.676,
+      0.713
+    ],
+    "persona_cluster_0": [
+      0.36978247734781533,
+      0.5953228550035304,
+      0.713338361338403
+    ],
+    "persona_cluster_1": [
+      0.2512044591310256,
+      0.6306461593592423,
+      0.7342899573044195
+    ],
+    "persona_cluster_2": [
+      0.32176011954086675,
+      0.6102064850772626,
+      0.7239602689669508
+    ],
+    "persona_cluster_3": [
+      0.4814540838130099,
+      0.5725402889263733,
+      0.6636260865396116
+    ],
+    "persona_cluster_4": [
+      0.2736353038394561,
+      0.5705587189197171,
+      0.7743296899624732
+    ],
+    "persona_cluster_5": [
+      0.2836848312519857,
+      0.6224163203653785,
+      0.7294661340051057
+    ]
+  },
+  "intent_vs_ideal": [
+    {
+      "actor": "Anthropic",
+      "actor_timepoint": "T3",
+      "ideal_source": "survey",
+      "angle": 9.65
+    },
+    {
+      "actor": "Anthropic",
+      "actor_timepoint": "T3",
+      "ideal_source": "debate",
+      "angle": 13.01
+    },
+    {
+      "actor": "Anthropic",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_0",
+      "angle": 7.23
+    },
+    {
+      "actor": "Anthropic",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_1",
+      "angle": 10.85
+    },
+    {
+      "actor": "Anthropic",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_2",
+      "angle": 8.21
+    },
+    {
+      "actor": "Anthropic",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_3",
+      "angle": 8.16
+    },
+    {
+      "actor": "Anthropic",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_4",
+      "angle": 12.8
+    },
+    {
+      "actor": "Anthropic",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_5",
+      "angle": 9.46
+    },
+    {
+      "actor": "DoD",
+      "actor_timepoint": "T4",
+      "ideal_source": "survey",
+      "angle": 55.96
+    },
+    {
+      "actor": "DoD",
+      "actor_timepoint": "T4",
+      "ideal_source": "debate",
+      "angle": 63.84
+    },
+    {
+      "actor": "DoD",
+      "actor_timepoint": "T4",
+      "ideal_source": "persona_cluster_0",
+      "angle": 52.99
+    },
+    {
+      "actor": "DoD",
+      "actor_timepoint": "T4",
+      "ideal_source": "persona_cluster_1",
+      "angle": 60.13
+    },
+    {
+      "actor": "DoD",
+      "actor_timepoint": "T4",
+      "ideal_source": "persona_cluster_2",
+      "angle": 55.92
+    },
+    {
+      "actor": "DoD",
+      "actor_timepoint": "T4",
+      "ideal_source": "persona_cluster_3",
+      "angle": 45.9
+    },
+    {
+      "actor": "DoD",
+      "actor_timepoint": "T4",
+      "ideal_source": "persona_cluster_4",
+      "angle": 58.88
+    },
+    {
+      "actor": "DoD",
+      "actor_timepoint": "T4",
+      "ideal_source": "persona_cluster_5",
+      "angle": 58.2
+    }
+  ],
+  "intent_vs_intent": [
+    {
+      "actor_1": "Anthropic",
+      "actor_1_timepoint": "T3",
+      "actor_2": "DoD",
+      "actor_2_timepoint": "T4",
+      "angle": 51.47
+    }
+  ],
+  "ideal_vs_ideal": [
+    {
+      "source_1": "survey",
+      "source_2": "debate",
+      "angle": 9.34
+    },
+    {
+      "source_1": "survey",
+      "source_2": "persona_cluster_0",
+      "angle": 3.27
+    },
+    {
+      "source_1": "survey",
+      "source_2": "persona_cluster_1",
+      "angle": 4.75
+    },
+    {
+      "source_1": "survey",
+      "source_2": "persona_cluster_2",
+      "angle": 1.69
+    },
+    {
+      "source_1": "survey",
+      "source_2": "persona_cluster_3",
+      "angle": 10.27
+    },
+    {
+      "source_1": "survey",
+      "source_2": "persona_cluster_4",
+      "angle": 3.43
+    },
+    {
+      "source_1": "survey",
+      "source_2": "persona_cluster_5",
+      "angle": 3.04
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_0",
+      "angle": 11.41
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_1",
+      "angle": 4.62
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_2",
+      "angle": 8.57
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_3",
+      "angle": 18.12
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_4",
+      "angle": 8.55
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_5",
+      "angle": 6.36
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_1",
+      "angle": 7.19
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_2",
+      "angle": 2.94
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_3",
+      "angle": 7.13
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_4",
+      "angle": 6.68
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_5",
+      "angle": 5.26
+    },
+    {
+      "source_1": "persona_cluster_1",
+      "source_2": "persona_cluster_2",
+      "angle": 4.25
+    },
+    {
+      "source_1": "persona_cluster_1",
+      "source_2": "persona_cluster_3",
+      "angle": 14.23
+    },
+    {
+      "source_1": "persona_cluster_1",
+      "source_2": "persona_cluster_4",
+      "angle": 4.33
+    },
+    {
+      "source_1": "persona_cluster_1",
+      "source_2": "persona_cluster_5",
+      "angle": 1.94
+    },
+    {
+      "source_1": "persona_cluster_2",
+      "source_2": "persona_cluster_3",
+      "angle": 10.03
+    },
+    {
+      "source_1": "persona_cluster_2",
+      "source_2": "persona_cluster_4",
+      "angle": 4.59
+    },
+    {
+      "source_1": "persona_cluster_2",
+      "source_2": "persona_cluster_5",
+      "angle": 2.31
+    },
+    {
+      "source_1": "persona_cluster_3",
+      "source_2": "persona_cluster_4",
+      "angle": 13.52
+    },
+    {
+      "source_1": "persona_cluster_3",
+      "source_2": "persona_cluster_5",
+      "angle": 12.3
+    },
+    {
+      "source_1": "persona_cluster_4",
+      "source_2": "persona_cluster_5",
+      "angle": 3.97
+    }
+  ]
+}
