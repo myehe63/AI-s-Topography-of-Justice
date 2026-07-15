@@ -1,0 +1,16 @@
+{
+  "ideal_unit_vector": [
+    0.188,
+    0.676,
+    0.713
+  ],
+  "ideal_vector": {
+    "state_authority": 0.188,
+    "corporate_ethics": 0.676,
+    "civilian_safety": 0.713
+  },
+  "n_rounds": 1,
+  "per_agent_scores": [],
+  "debate_transcript": [],
+  "_note": "원본 debate.py 실행 결과에서 하드코딩되어 있던 ideal_unit_vector만 복원. 원본은 라운드별 transcript를 저장하지 않아 그 부분은 유실됨 — run.py --force stage3a로 재실행하면 새로 채워짐."
+}

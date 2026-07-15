@@ -1,0 +1,58 @@
+{
+  "case_id": "<새_사례_id>",
+  "case_context": "<사건 배경 설명 — raw_sources.json의 발언들을 해석할 때 필요한 맥락을 적는다. 실제 인물/기관 이름, 시점, 쟁점을 구체적으로 포함할 것>",
+  "axes": [
+    {
+      "id": "axis_1",
+      "name": "<axis_1_이름>",
+      "description": "<이 축이 묻는 질문 — 0~100 점수화 기준>",
+      "low_label": "<0점에 해당하는 입장>",
+      "high_label": "<100점에 해당하는 입장>"
+    },
+    {
+      "id": "axis_2",
+      "name": "<axis_2_이름>",
+      "description": "<...>",
+      "low_label": "<...>",
+      "high_label": "<...>"
+    },
+    {
+      "id": "axis_3",
+      "name": "<axis_3_이름>",
+      "description": "<...>",
+      "low_label": "<...>",
+      "high_label": "<...>"
+    }
+  ],
+  "sources_path": "raw_sources.json",
+  "_survey_ideal_vector_안내": "외부 설문(ITIF 등) 결과가 있을 때만 survey_ideal_vector 키를 추가한다 (예: [29.0, 53.0, 67.0], 정규화 전 raw 값). 없으면 이 안내 줄과 함께 생략 — stage4a가 survey 비교를 자동으로 건너뛴다.",
+  "ideal_methods": {
+    "debate": {
+      "enabled": true,
+      "models": ["gpt-4.1-mini", "claude-sonnet-4-5", "gemini-2.5-flash-lite"],
+      "agents_per_model": 2,
+      "n_rounds": 1
+    },
+    "clustering": {
+      "enabled": true,
+      "n_personas": 200,
+      "k_range": [2, 6],
+      "countries": [
+        "South Korea", "Nigeria", "Germany", "Brazil", "India",
+        "Japan", "Egypt", "Mexico", "Russia", "Australia",
+        "Iran", "USA", "China", "Colombia", "Kenya",
+        "Turkey", "Indonesia", "France", "Pakistan", "Argentina",
+        "Ethiopia", "Vietnam", "Poland", "Saudi Arabia", "Ukraine",
+        "Canada", "Morocco", "Thailand", "Israel", "South Africa",
+        "Bangladesh", "Romania", "Chile", "Kazakhstan", "Ghana",
+        "Peru", "Netherlands", "Syria", "Singapore", "New Zealand",
+        "Afghanistan", "Sweden", "Philippines", "Cuba", "Iraq",
+        "Finland", "Myanmar", "Venezuela", "Zimbabwe", "Haiti"
+      ]
+    }
+  },
+  "llm": {
+    "model": "claude-sonnet-4-6",
+    "max_tokens": 1000
+  }
+}
