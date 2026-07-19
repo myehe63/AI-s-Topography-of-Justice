@@ -1,0 +1,145 @@
+{
+  "case_context": "In December 2023, The New York Times sued OpenAI and Microsoft in the U.S. District Court for the Southern District of New York, alleging that millions of Times articles were copied without permission or payment to train large language models (ChatGPT, Bing Chat/Copilot), and that these tools now compete with and substitute for Times journalism. OpenAI publicly rejected the claims as without merit, arguing that training on publicly available text is transformative fair use. In February 2024, OpenAI accused the Times of \"hacking\" its products—alleging that the Times used deceptive, repeated prompting, in violation of OpenAI's terms of use, to manufacture examples of verbatim regurgitation—while the Times responded that its methods were legitimate investigation into whether ChatGPT reproduces its copyrighted content. In April 2025, a federal judge denied most of OpenAI's motion to dismiss, allowing the core infringement claims to proceed to discovery.\nDuring discovery, the dispute's center of gravity shifted to ChatGPT user conversation logs. The Times and co-plaintiffs argued that a large sample of logs was necessary to find evidence of copyright reproduction and paywall circumvention, initially requesting 120 million conversations; OpenAI proposed a smaller de-identified sample of 20 million. Later, in October 2025, OpenAI shifted to proposing keyword-search-based production instead, which the magistrate judge also rejected. When the court ordered OpenAI to produce the 20-million-log sample, OpenAI objected, arguing that the order would expose highly personal conversations of users with no connection to what it called a \"baseless lawsuit\" and describing the demand as a \"fishing expedition.\" The magistrate judge ruled that de-identification and a protective order adequately safeguarded user privacy and upheld the production order. The Times, in turn, stated that OpenAI's public blog posts about the order misled users and omitted facts, characterizing them as an attempt to shift attention away from the underlying copyright allegations.\nBeyond the substantive merits of copyright and privacy claims, both parties have repeatedly accused each other of bad-faith conduct in how the dispute itself has been waged—including allegations of evidence fabrication (the \"hacking\" dispute), deceptive characterization of court orders, and misleading public statements. Each of these accusations remains contested by the accused party. These meta-level accusations of procedural bad faith are treated as evidence on the procedural_integrity axis, separate from the parties' substantive legal positions on copyright or privacy.\n",
+  "axes": [
+    {
+      "id": "axis_1",
+      "name": "creator_rights",
+      "description": "Does the statement affirm that creators/rights-holders are owed permission and compensation before their copyrighted work is used to train or power AI products, or does it treat such use as not requiring permission or payment? Score based on how strongly the actor asserts (or denies) that consent and compensation are owed to the original creator.",
+      "low_label": "AI development does not require creator permission or payment; copyright should not constrain training",
+      "high_label": "Creators are owed explicit permission and compensation before their work is used to train AI"
+    },
+    {
+      "id": "axis_2",
+      "name": "societal_benefit",
+      "description": "Does the statement argue that the broader public good (scientific progress, education, economic growth, wider access to knowledge or tools) justifies imposing costs on a smaller group's individual rights or interests, or does it argue that individual rights cannot be overridden by collective benefit, however large? Score based on how strongly the actor invokes greater-good reasoning versus rights-based reasoning to justify its position.",
+      "low_label": "Individual rights cannot be overridden by claims of broader societal benefit",
+      "high_label": "The greater public good justifies limiting individual rights or interests"
+    },
+    {
+      "id": "axis_3",
+      "name": "procedural_integrity",
+      "description": "Does this statement accuse the opposing party of dishonest, manipulative, or deceptive tactics (e.g., fabricating evidence, misleading the public, exploiting technical loopholes, misrepresenting facts to a court), or does it defend its own conduct as transparent and above-board? Score based on how strongly the actor claims the moral high ground on HOW the dispute is being conducted, separate from WHO is right on the underlying copyright/privacy merits.",
+      "low_label": "Accuses the other side of bad-faith, deceptive, or manipulative conduct in pursuing the dispute",
+      "high_label": "Claims its own conduct has been transparent, good-faith, and procedurally fair"
+    }
+  ],
+  "timepoints": [
+    {
+      "id": "T0",
+      "label": "소송 제기 및 초기 대응",
+      "description": "NYT의 저작권 침해 소송 제기와 OpenAI의 첫 공식 입장 표명. 양측의 기본 법적 입장이 확립되는 시기",
+      "date_range": "2023-12 ~ 2024-01"
+    },
+    {
+      "id": "T1",
+      "label": "절차적 공방 ('해킹' 논란)",
+      "description": "OpenAI의 기각 신청과 '해킹' 주장, NYT의 반박. 증거 수집 방법론의 적법성을 둘러싼 메타 분쟁 발생",
+      "date_range": "2024-02 ~ 2024-03"
+    },
+    {
+      "id": "T2",
+      "label": "법원 판단 및 증거개시 전환",
+      "description": "연방 판사의 기각 신청 기각 결정(2025-04)으로 본안 진행 확정. 분쟁의 중심이 대화 로그 증거개시로 이동",
+      "date_range": "2024-04 ~ 2025-10"
+    },
+    {
+      "id": "T3",
+      "label": "대화 로그 공개 명령 분쟁",
+      "description": "법원의 2천만 로그 제출 명령과 OpenAI의 사용자 프라이버시 우려 제기. 양측의 공개 성명전 격화",
+      "date_range": "2025-11 ~ 현재"
+    }
+  ],
+  "vectors": [
+    {
+      "source_id": "src_001",
+      "actor": "NYT",
+      "date": "2023-12-27",
+      "type": "court_filing_complaint",
+      "vector": {
+        "creator_rights": 95,
+        "societal_benefit": 0,
+        "procedural_integrity": 50
+      },
+      "reasoning": "텍스트는 저작권자의 허락과 보상 없는 사용을 '불법적(unlawful)'이라 강하게 주장하며(creator_rights 95), 공익적 정당화는 전혀 제시하지 않고 오직 권리 침해만 강조(societal_benefit 0). 상대방의 절차적 부정행위 주장은 없음(procedural_integrity 50).",
+      "timepoint": "T0"
+    },
+    {
+      "source_id": "src_002",
+      "actor": "OpenAI",
+      "date": "2024-01-08",
+      "type": "blog_post",
+      "vector": {
+        "creator_rights": 15,
+        "societal_benefit": 75,
+        "procedural_integrity": 85
+      },
+      "reasoning": "OpenAI는 fair use를 주장하며 창작자 허가/보상 불필요 입장(15점), transformative use와 공익적 목적(교육, 연구 등)을 강조하여 공공선 논리 사용(75점), 자신들은 good-faith 협상을 했으나 NYT가 경고 없이 소송해 실망했다며 절차적 투명성 주장(85점)",
+      "timepoint": "T0"
+    },
+    {
+      "source_id": "src_003",
+      "actor": "OpenAI",
+      "date": "2024-02-26",
+      "type": "court_filing_motion_to_dismiss",
+      "vector": {
+        "creator_rights": 50,
+        "societal_benefit": 50,
+        "procedural_integrity": 0
+      },
+      "reasoning": "텍스트는 저작권 허가나 보상 필요성, 공익 논리를 직접 다루지 않고, NYT가 '해킹', '기만적 프롬프트', '이용약관 위반'으로 증거를 조작했다고 강력히 비난하며 절차적 악의를 주장함",
+      "timepoint": "T1"
+    },
+    {
+      "source_id": "src_004",
+      "actor": "NYT",
+      "date": "2024-03-11",
+      "type": "court_filing_opposition",
+      "vector": {
+        "creator_rights": 95,
+        "societal_benefit": 50,
+        "procedural_integrity": 5
+      },
+      "reasoning": "NYT는 OpenAI가 자사의 저작권 콘텐츠를 무단으로 대규모 복제했다고 강력히 주장하며(creator_rights 높음), OpenAI의 '해킹' 주장을 거짓이고 부적절하며 자신들의 조사는 정당했다고 반박하면서 OpenAI를 절차적 기만 행위로 비난함(procedural_integrity 낮음). 사회적 이익에 대한 언급은 없음(중립).",
+      "timepoint": "T1"
+    },
+    {
+      "source_id": "src_005",
+      "actor": "OpenAI",
+      "date": "2025-06-05",
+      "type": "blog_post",
+      "vector": {
+        "creator_rights": 50,
+        "societal_benefit": 0,
+        "procedural_integrity": 100
+      },
+      "reasoning": "텍스트는 저작권 문제를 직접 언급하지 않고(중립), 사용자 개인 프라이버시 권리가 소송 요구에 의해 침해될 수 없다고 강조하며(개인 권리 우선), 자신들의 프라이버시 보호 약속을 지키려는 투명하고 정당한 입장임을 주장함(절차적 선의 강조)",
+      "timepoint": "T2"
+    },
+    {
+      "source_id": "src_006",
+      "actor": "OpenAI",
+      "date": "2025-11-12",
+      "type": "blog_post",
+      "vector": {
+        "creator_rights": 15,
+        "societal_benefit": 75,
+        "procedural_integrity": 90
+      },
+      "reasoning": "텍스트는 NYT의 소송을 'baseless'라 표현하며 저작권자의 권리 주장을 부정(15점). 8억 사용자의 이익을 강조하며 개인 권리보다 공익을 우선시(75점). 자사는 trust/privacy를 강조하고 NYT의 요구를 privacy 침해로 프레이밍하여 도덕적 우위 주장(90점).",
+      "timepoint": "T3"
+    },
+    {
+      "source_id": "src_007",
+      "actor": "NYT",
+      "date": "2025-11-12",
+      "type": "spokesperson_statement",
+      "vector": {
+        "creator_rights": 95,
+        "societal_benefit": 50,
+        "procedural_integrity": 5
+      },
+      "reasoning": "NYT는 저작권 침해('stealing millions of copyrighted works')와 보상 필요성을 강하게 주장하고, OpenAI가 '불법 행위를 은폐'하며 '의도적으로 오도하고 사실을 누락'했다고 비난하여 상대방의 절차적 악의를 강력히 제기함. 공익 논리는 언급 없음.",
+      "timepoint": "T3"
+    }
+  ]
+}

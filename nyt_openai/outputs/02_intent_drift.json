@@ -1,0 +1,81 @@
+{
+  "consistency_analysis": [
+    {
+      "group": "OpenAI_T3",
+      "source_1": "src_005 (blog_post)",
+      "source_2": "src_006 (blog_post)",
+      "angle": 43.65,
+      "interpretation": "소스간 심각한 불일치 — 의도 모호성 높음"
+    }
+  ],
+  "drift_analysis": [
+    {
+      "actor": "OpenAI",
+      "from_timepoint": "T0",
+      "to_timepoint": "T1",
+      "angle": 56.18,
+      "interpretation": "급격한 입장 변화 — 주목 필요",
+      "vector_from": {
+        "creator_rights": 15.0,
+        "societal_benefit": 75.0,
+        "procedural_integrity": 85.0
+      },
+      "vector_to": {
+        "creator_rights": 50.0,
+        "societal_benefit": 50.0,
+        "procedural_integrity": 0.0
+      }
+    },
+    {
+      "actor": "OpenAI",
+      "from_timepoint": "T1",
+      "to_timepoint": "T3",
+      "angle": 61.87,
+      "interpretation": "급격한 입장 변화 — 주목 필요",
+      "vector_from": {
+        "creator_rights": 50.0,
+        "societal_benefit": 50.0,
+        "procedural_integrity": 0.0
+      },
+      "vector_to": {
+        "creator_rights": 32.5,
+        "societal_benefit": 37.5,
+        "procedural_integrity": 92.5
+      }
+    },
+    {
+      "actor": "NYT",
+      "from_timepoint": "T0",
+      "to_timepoint": "T1",
+      "angle": 22.31,
+      "interpretation": "뚜렷한 방향 전환",
+      "vector_from": {
+        "creator_rights": 95.0,
+        "societal_benefit": 50.0,
+        "procedural_integrity": 50.0
+      },
+      "vector_to": {
+        "creator_rights": 95.0,
+        "societal_benefit": 50.0,
+        "procedural_integrity": 5.0
+      }
+    },
+    {
+      "actor": "NYT",
+      "from_timepoint": "T1",
+      "to_timepoint": "T3",
+      "angle": 0.0,
+      "interpretation": "거의 변화 없음",
+      "vector_from": {
+        "creator_rights": 95.0,
+        "societal_benefit": 50.0,
+        "procedural_integrity": 5.0
+      },
+      "vector_to": {
+        "creator_rights": 95.0,
+        "societal_benefit": 50.0,
+        "procedural_integrity": 5.0
+      }
+    }
+  ]
+}

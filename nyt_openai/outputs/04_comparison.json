@@ -1,0 +1,259 @@
+{
+  "actor_intent_vectors": {
+    "NYT": {
+      "timepoint": "T3",
+      "unit_vector": [
+        0.8839599998785473,
+        0.4652421051992354,
+        0.046524210519923545
+      ]
+    },
+    "OpenAI": {
+      "timepoint": "T3",
+      "unit_vector": [
+        0.1270001270001905,
+        0.6350006350009525,
+        0.762000762001143
+      ]
+    }
+  },
+  "ideal_sources": {
+    "debate": [
+      0.7987296757493972,
+      0.37587278858795165,
+      0.46984098573493954
+    ],
+    "persona_cluster_0": [
+      0.7625541792351349,
+      0.5382736016890742,
+      0.35884906779271636
+    ],
+    "persona_cluster_1": [
+      0.7412010340534039,
+      0.3406675364480369,
+      0.5784173724297967
+    ],
+    "persona_cluster_2": [
+      0.6731492982040589,
+      0.46661512437485725,
+      0.573707545733904
+    ],
+    "persona_cluster_3": [
+      0.8707584855856068,
+      0.35060779679237186,
+      0.3447518420676813
+    ],
+    "persona_cluster_4": [
+      0.7006060636025431,
+      0.479858739772144,
+      0.5280972765576805
+    ],
+    "persona_cluster_5": [
+      0.7444516316788296,
+      0.3864271276106486,
+      0.5444867703969599
+    ]
+  },
+  "intent_vs_ideal": [
+    {
+      "actor": "NYT",
+      "actor_timepoint": "T3",
+      "ideal_source": "debate",
+      "angle": 25.47
+    },
+    {
+      "actor": "NYT",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_0",
+      "angle": 19.75
+    },
+    {
+      "actor": "NYT",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_1",
+      "angle": 32.8
+    },
+    {
+      "actor": "NYT",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_2",
+      "angle": 32.98
+    },
+    {
+      "actor": "NYT",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_3",
+      "angle": 18.4
+    },
+    {
+      "actor": "NYT",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_4",
+      "angle": 29.87
+    },
+    {
+      "actor": "NYT",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_5",
+      "angle": 30.32
+    },
+    {
+      "actor": "OpenAI",
+      "actor_timepoint": "T3",
+      "ideal_source": "debate",
+      "angle": 45.72
+    },
+    {
+      "actor": "OpenAI",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_0",
+      "angle": 44.59
+    },
+    {
+      "actor": "OpenAI",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_1",
+      "angle": 41.3
+    },
+    {
+      "actor": "OpenAI",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_2",
+      "angle": 35.02
+    },
+    {
+      "actor": "OpenAI",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_3",
+      "angle": 53.42
+    },
+    {
+      "actor": "OpenAI",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_4",
+      "angle": 37.24
+    },
+    {
+      "actor": "OpenAI",
+      "actor_timepoint": "T3",
+      "ideal_source": "persona_cluster_5",
+      "angle": 40.99
+    }
+  ],
+  "intent_vs_intent": [
+    {
+      "actor_1": "NYT",
+      "actor_1_timepoint": "T3",
+      "actor_2": "OpenAI",
+      "actor_2_timepoint": "T3",
+      "angle": 63.7
+    }
+  ],
+  "ideal_vs_ideal": [
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_0",
+      "angle": 11.48
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_1",
+      "angle": 7.33
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_2",
+      "angle": 10.7
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_3",
+      "angle": 8.4
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_4",
+      "angle": 8.85
+    },
+    {
+      "source_1": "debate",
+      "source_2": "persona_cluster_5",
+      "angle": 5.32
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_1",
+      "angle": 17.03
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_2",
+      "angle": 13.99
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_3",
+      "angle": 12.46
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_4",
+      "angle": 10.87
+    },
+    {
+      "source_1": "persona_cluster_0",
+      "source_2": "persona_cluster_5",
+      "angle": 13.81
+    },
+    {
+      "source_1": "persona_cluster_1",
+      "source_2": "persona_cluster_2",
+      "angle": 8.21
+    },
+    {
+      "source_1": "persona_cluster_1",
+      "source_2": "persona_cluster_3",
+      "angle": 15.36
+    },
+    {
+      "source_1": "persona_cluster_1",
+      "source_2": "persona_cluster_4",
+      "angle": 8.8
+    },
+    {
+      "source_1": "persona_cluster_1",
+      "source_2": "persona_cluster_5",
+      "angle": 3.27
+    },
+    {
+      "source_1": "persona_cluster_2",
+      "source_2": "persona_cluster_3",
+      "angle": 18.64
+    },
+    {
+      "source_1": "persona_cluster_2",
+      "source_2": "persona_cluster_4",
+      "angle": 3.14
+    },
+    {
+      "source_1": "persona_cluster_2",
+      "source_2": "persona_cluster_5",
+      "angle": 6.38
+    },
+    {
+      "source_1": "persona_cluster_3",
+      "source_2": "persona_cluster_4",
+      "angle": 16.19
+    },
+    {
+      "source_1": "persona_cluster_3",
+      "source_2": "persona_cluster_5",
+      "angle": 13.73
+    },
+    {
+      "source_1": "persona_cluster_4",
+      "source_2": "persona_cluster_5",
+      "angle": 5.99
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "sources": [
+    {
+      "id": "src_001",
+      "actor": "NYT",
+      "date": "2023-12-27",
+      "type": "court_filing_complaint",
+      "text": "Defendants' unlawful use of The Times's work to create artificial intelligence products that compete with it threatens The Times's ability to provide that service. Defendants' generative artificial intelligence (\"GenAI\") tools rely on large-language models (\"LLMs\") that were built by copying and using millions of The Times's copyrighted news articles, in-depth investigations, opinion pieces, reviews, how-to guides, and more. While Defendants engaged in widescale copying from many sources, they gave Times content particular emphasis when building their LLMs—revealing a preference that recognizes the value of those works. Through Microsoft's Bing Chat (recently rebranded as \"Copilot\") and OpenAI's ChatGPT, Defendants seek to free-ride on The Times's massive investment in its journalism by using it to build substitutive products without permission or payment. Among the relief The Times seeks is an order requiring destruction under 17 U.S.C. § 503(b) of all GPT or other LLM models and training sets that incorporate Times Works."
+    },
+    {
+     "id": "src_002",
+     "actor": "OpenAI",
+     "date": "2024-01-08",
+     "type": "blog_post",
+     "text": "We set out to support a healthy news ecosystem, be a good partner, and create mutually beneficial opportunities. We partnered with Associated Press, Axel Springer, American Journalism Project and NYU. We also engaged in good-faith discussions with The New York Times, but on December 27, 2023, without warning, we learned of their lawsuit by reading the Times. It was a surprise and disappointment. We disagree with their claims. As the United States Supreme Court has explained, the 'fair use' defense allows the public to use not only facts and ideas contained in a copyrighted work, but also expression itself in certain circumstances, including for purposes such as criticism, comment, news reporting, teaching, scholarship, or research. We believe generative AI training and use qualify as fair use at a minimum because they are transformative, non-expressive analytical uses that do not substitute for, or harm, the markets for the original works."
+  },
+  {
+  "id": "src_003",
+  "actor": "OpenAI",
+  "date": "2024-02-26",
+  "type": "court_filing_motion_to_dismiss",
+  "text": "The allegations in the Times's complaint do not meet its famously rigorous journalistic standards. The truth, which will come out in the course of this case, is that the Times paid someone to hack OpenAI's products. The Times caused the technology to reproduce its material through deceptive prompts that blatantly violate OpenAI's terms of use. Normal people do not use OpenAI's products in this way. In the ordinary course, one cannot use ChatGPT to serve up Times articles at will."
+  },
+  {
+  "id": "src_004",
+  "actor": "NYT",
+  "date": "2024-03-11",
+  "type": "court_filing_opposition",
+  "text": "Conspicuously, OpenAI's attention-grabbing claim that The Times \"hacked\" its products (Mot. at 2) is as irrelevant as it is false. As Exhibit J to the Complaint makes clear, The Times elicited examples of memorization by prompting GPT-4 with the first few words or sentences of Times articles. That work was only necessary because OpenAI does not disclose the content it uses to train its models and power its user-facing products. Yet in OpenAI's telling, The Times engaged in wrongdoing by detecting OpenAI's theft of The Times's own copyrighted content. OpenAI's true grievance is not about how The Times conducted its investigation, but instead what that investigation exposed: that Defendants built their products by copying The Times's content on an unprecedented scale—a fact that OpenAI does not, and cannot, dispute."
+  }
+  ,
+  {
+  "id": "src_005",
+  "actor": "OpenAI",
+  "date": "2025-06-05",
+  "type": "blog_post",
+  "text": "Trust and privacy are at the core of our products. We give you tools to control your data—including easy opt-outs and permanent removal of deleted ChatGPT chats and API content from OpenAI's systems within 30 days. The New York Times and other plaintiffs have made a sweeping and unnecessary demand in their baseless lawsuit against us: retain consumer ChatGPT and API customer data indefinitely. This fundamentally conflicts with the privacy commitments we have made to our users. It abandons long-standing privacy norms and weakens privacy protections. We strongly believe this is an overreach by the New York Times. We're continuing to appeal this order so we can keep putting your trust and privacy first."
+  }
+  ,{
+  "id": "src_006",
+  "actor": "OpenAI",
+  "date": "2025-11-12",
+  "type": "blog_post",
+  "text": "Trust, security, and privacy guide every product and decision we make. Each week, 800 million people use ChatGPT to think, learn, create, and handle some of the most personal parts of their lives. We treat this data as among the most sensitive information in your digital life — and we're building our privacy and security protections to match that responsibility. Today, that responsibility is being tested. The New York Times is demanding that we turn over 20 million of your private ChatGPT conversations. They claim they might find examples of you using ChatGPT to try to get around their paywall. This demand disregards long-standing privacy protections, breaks with common-sense security practices, and would force us to turn over tens of millions of highly personal conversations from people who have no connection to the Times' baseless lawsuit against OpenAI."
+},
+{
+  "id": "src_007",
+  "actor": "NYT",
+  "date": "2025-11-12",
+  "type": "spokesperson_statement",
+  "text": "The New York Times's case against OpenAI and Microsoft is about holding these companies accountable for stealing millions of copyrighted works to create products that directly compete with The Times. In another attempt to cover up its illegal conduct, OpenAI's blog post purposely misleads its users and omits the facts. No ChatGPT user's privacy is at risk. The court ordered OpenAI to provide a sample of chats, anonymized by OpenAI itself, under a legal protective order."
+}
+
+
+
+
+
+  ]
+  
+ 
+}
